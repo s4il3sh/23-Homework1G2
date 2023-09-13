@@ -38,3 +38,7 @@ result_decimal = int(list(counts.keys())[0], 2)
 
 # Print the result
 print(f"The result of {number1} + {number2} is {result_decimal}")
+
+#adding counts code to visualize clearly the binary number.
+print(counts)
+plot_histogram(counts)
